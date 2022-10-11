@@ -44,14 +44,14 @@ header{
     max-width: 350px ;
     
 }
-#cabeçalho>ul>li{
+#cabeçalho>ul>li,footer>ul>li{
     display: flex;
     align-items: center;
     list-style: none;
     font-size: 1.3em;
     margin: 10px;
 }
-#cabeçalho>ul>li>ion-icon{
+#cabeçalho>ul>li>ion-icon,footer>ul>li>ion-icon{
     font-size: 1.5em;
     margin: 4px;
     padding: 6px;
@@ -215,6 +215,18 @@ background-color: white;
     text-align: center;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.575);
     
+}
+footer{
+    background-color: rgb(169, 197, 197);
+    max-width: 900px;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    
+
+}
+footer>ul>li{
+    list-style: none;
 }
 #vital-life{
     background-color: #008F8C;
