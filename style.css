@@ -125,7 +125,7 @@ background-color: white;
     flex-wrap: wrap; 
     margin: auto;
     justify-content: space-evenly;
-                                                                                         ;
+                                                                                         
     
 }
 #conteudo-principal-home>div{
@@ -139,7 +139,7 @@ background-color: white;
     
 }
 .texto,#imagem-home1{
-    background-color: azure;
+   
     display: inline;
     min-width: 300px;
     max-width: 400px;
@@ -162,7 +162,7 @@ background-color: white;
 
 }
 .texto>p{
-    background-color: rgb(217, 246, 247);
+    background-color: rgba(234, 249, 250, 0.664);
     text-align: left;
     color: var(--cor1);
     font-size: 1.4em;
@@ -204,8 +204,9 @@ background-color: white;
     background-color: #676767bd;
     display: inline-block;
     max-width: 100px;
-    height: 120px;
+    height: 100px;
     margin: auto;
+    border-radius: 10px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.575);
 
 
@@ -214,19 +215,28 @@ background-color: white;
     
     text-align: center;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.575);
-    
+    width: 90px;
+    margin: 5px;
 }
 footer{
-    background-color: rgb(169, 197, 197);
+    background-color: var(--cor6);
+    background-color: var(--cor6);
     max-width: 900px;
     display: flex;
     margin: auto;
     justify-content: space-around;
+    border-radius: 20px 10px 0px 0px;
     
 
 }
 footer>ul>li{
     list-style: none;
+    color: var(--cor2);
+}
+#central-atendimento{
+    font-size: 1.6em;
+    margin-top: 10px;
+    color: var(--cor2);
 }
 #vital-life{
     background-color: #008F8C;
