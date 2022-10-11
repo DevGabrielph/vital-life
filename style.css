@@ -80,7 +80,7 @@ nav{
 nav>a{
     text-decoration: none;
     color: var(--cor2);
-   display: inline-flex;
+    display: inline-flex;
 
     border-radius: 15px;
     background: fixed;
@@ -113,7 +113,6 @@ a:hover{
 background-color: white;
 }
 #conteudo-principal-home{
-    background-color: rgb(153, 175, 194);
     max-width: 1000px;
     min-width: 300px;
     justify-content: space-evenly;
@@ -159,7 +158,7 @@ background-color: white;
 
 }
 .texto>p{
-background-color: aquamarine;
+    background-color: rgb(217, 246, 247);
     text-align: left;
     color: var(--cor1);
     font-size: 1.4em;
@@ -168,6 +167,7 @@ background-color: aquamarine;
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.233);
     min-width: 280px;
     max-width: 380px;
+    padding: 3px;
 
 }
 #conteudo-principal-home>div>img{
@@ -177,6 +177,29 @@ background-color: aquamarine;
     border: 1px solid black;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.596);
   
+
+}
+#tipos-serviços{
+    display:flex;
+    margin: auto;
+    max-width: 1000px;
+    margin-bottom: 70px;
+    margin-top: 70px;
+    
+
+}
+#tipos-serviços>.caixa{
+    width: 120px;
+    height: 120px;
+    margin: auto;
+
+}
+#tipos-serviços>.caixa>img{
+    background-color: #676767bd;
+    display: inline;
+    width: 120px;
+    height: 120px;
+    margin: auto;
 
 }
 
