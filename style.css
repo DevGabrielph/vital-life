@@ -82,6 +82,7 @@ nav>a{
    display: inline-flex;
 
     border-radius: 15px;
+    background: fixed;
    
     
     background-position: center;
