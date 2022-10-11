@@ -189,22 +189,40 @@ background-color: white;
     max-width: 1000px;
     margin-bottom: 70px;
     margin-top: 70px;
-    
 
 }
 #tipos-serviços>.caixa{
-    width: 120px;
-    height: 120px;
-    margin: auto;
-
-}
-#tipos-serviços>.caixa>img{
-    background-color: #676767bd;
     display: inline;
     width: 120px;
     height: 120px;
     margin: auto;
+    
+    
 
+}
+#tipos-serviços>.caixa>img{
+    background-color: #676767bd;
+    display: inline-block;
+    max-width: 100px;
+    height: 120px;
+    margin: auto;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.575);
+
+
+}
+#tipos-serviços>.caixa>h3{
+    
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.575);
+    
+}
+#vital-life{
+    background-color: #008F8C;
+    max-width: 1000px;
+
+    display: none;
+    
+    margin: auto;
 }
 
 
