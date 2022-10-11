@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    margin: auto;
+}
 :root{
     --cor1:rgba(0, 0, 0, 0.849);
     --cor2:rgb(255, 255, 255);
@@ -105,7 +108,8 @@ a:hover{
    
     box-shadow: -1px -1px 8px black;
     text-shadow: -1px -1px 3px rgba(0, 0, 0, 0.384);
-    height: 20px;
+    min-height: 20px;
+    max-height: 50px;
 
     
 }
