@@ -68,7 +68,8 @@ header{
 nav{
     display: flex;
     justify-content: space-evenly ;
-    height: 55px;
+    min-height: 55px;
+    max-height: 100px;
     margin-bottom: 20px;
     
     
@@ -91,7 +92,7 @@ nav>a{
 
     
     padding: 5px;
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: bold;
     text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.384);
    
