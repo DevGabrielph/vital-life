@@ -115,6 +115,7 @@ a:hover{
 }
 #home{
 background-color: white;
+display: none;/* ATENÇÃO AQUI ESTA NONE --------------------------*/
 }
 #conteudo-principal-home{
     max-width: 1000px;
@@ -176,7 +177,7 @@ background-color: white;
 
 }
 #conteudo-principal-home>div>img{
-    display: inline;
+    display: inline; 
     width: 370px;
     margin: 15px;
     border: 1px solid black;
@@ -230,6 +231,8 @@ background-color: white;
 }
 #tipos-serviços>.caixa-externa>.caixa-interna>h3{
     text-align: center;
+    color: var(--cor2);
+    text-shadow: 2px 2px 9px rgba(255, 255, 255, 0.377);
    
 }
 footer{
@@ -258,11 +261,45 @@ footer>ul>li>ion-icon{
 #vital-life{
     background-color: #008F8C;
     max-width: 1000px;
-
-    display: none;
+    display: block;
     
     margin: auto;
 }
+.texto-vital{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.texto-vital>div{
+    flex: 1 1 300px;
+}
+.titulo-geral-life{
+    display: flex;
+    background-color: rgb(218, 47, 47);
+    max-width: 275px;
+    margin: auto;
+    
+}
+.seta{
+    font-size: 1.6em;
+    margin-top: 8px;
+    
+}
+.titulo-life{
+    
+    background-color: #72cfcf;
+    max-width: 250px;
+}
+.titulo-life>h1{
+    font-size: 3em;
+}
+.paragrafo-vital{
+    background-color: #5fa3a2;
+    max-width: 400px;
+    margin: auto;
+
+}
+
 
 
 
