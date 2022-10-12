@@ -185,39 +185,52 @@ background-color: white;
 
 }
 #tipos-serviços{
-    display:flex;
+    
+    display: flex;
+    flex-wrap: wrap;
+    
     margin: auto;
-    max-width: 1000px;
+    max-width: 900px;
     margin-bottom: 70px;
     margin-top: 70px;
+    
 
 }
-#tipos-serviços>.caixa{
-    display: inline;
+#tipos-serviços>.caixa-externa{
+    margin-left:20px ;
+    flex:1 1 150px;
+}
+
+#tipos-serviços>.caixa-externa>.caixa-interna{
+    
+    background-color: #363535bd;
+    margin: 10px;
+    margin-left: 50px;
     width: 120px;
-    height: 120px;
-    margin: auto;
-    
-    
-
-}
-#tipos-serviços>.caixa>img{
-    background-color: #676767bd;
-    display: inline-block;
-    max-width: 100px;
-    height: 100px;
-    margin: auto;
     border-radius: 10px;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.575);
+    box-shadow: 2px 3px 8px;
+    padding-bottom: 5px;
+    
+    
+
+}
+#tipos-serviços>.caixa-externa>.caixa-interna>img{
+    background-color: #676767bd;
+    align-items: center;
+    
+    width: 120px;
+    height: 100px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    
+    border-radius: 10px;
+    
 
 
 }
-#tipos-serviços>.caixa>h3{
-    
+#tipos-serviços>.caixa-externa>.caixa-interna>h3{
     text-align: center;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.575);
-    width: 90px;
-    margin: 5px;
+   
 }
 footer{
     background-color: var(--cor6);
