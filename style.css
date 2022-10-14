@@ -264,6 +264,7 @@ footer>ul>li>ion-icon{
     display: block;
     
     margin: auto;
+    margin-bottom: 20px;
 }
 .texto-vital{
     display: flex;
@@ -284,6 +285,7 @@ footer>ul>li>ion-icon{
 .seta{
     font-size: 1.6em;
     margin-top: 8px;
+    color: #023535;
     
 }
 .titulo-life{
@@ -295,26 +297,48 @@ footer>ul>li>ion-icon{
 .titulo-life>h1{
     font-size: 3em;
     color: #023535;
+    margin-bottom:15px ;
 }
 
 .titulo-life>h2{
     color:#f16524 ;
-    font-size: 1.8em;
-    padding: 10px;
+    font-size: 2em;
+    
+    padding: 15px;
 }
 .paragrafo-vital{
-    background-color: #ebebebad;
+    background-color: #b4cccfad;
     max-width: 400px;
     margin: auto;
     font-size: 1.4em;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 10px;
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
     box-shadow: 2px 3px 9px black;
 
 }
+#gri-imagens{
+    background-color: #008F8C;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 700px;
+  margin: auto;
+  
+  
+  
 
-
+}
+#gri-imagens>div{
+   display: block;
+   flex: 1 1 150px;
+   margin: 15px;
+   
+   
+}
+.imagens>img{
+    max-width:200px ;
+   
+}
 
 
