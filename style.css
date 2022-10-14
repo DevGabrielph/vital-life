@@ -339,9 +339,10 @@ footer>ul>li>ion-icon{
 }
 #gri-imagens>img{
    flex: 1 1 200px;
-   margin: 10px auto;
-   padding: 5px;
+   margin: 5px auto;
+   
    max-width:200px ;
+   box-shadow: 1px 1px 6px black;
    
 }
 #unidades{
