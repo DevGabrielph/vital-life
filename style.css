@@ -115,7 +115,7 @@ a:hover{
 }
 #home{
 background-color: white;
-display: none;/* ATENÇÃO AQUI ESTA NONE --------------------------*/
+display: block;/* ATENÇÃO AQUI ESTA NONE --------------------------*/
 }
 #conteudo-principal-home{
     max-width: 1000px;
@@ -204,7 +204,7 @@ display: none;/* ATENÇÃO AQUI ESTA NONE --------------------------*/
 
 #tipos-serviços>.caixa-externa>.caixa-interna{
     
-    background-color: #363535bd;
+    background-color: #36353575;
     margin: 10px;
     margin-left: 25px;
     width: 120px;
@@ -216,7 +216,7 @@ display: none;/* ATENÇÃO AQUI ESTA NONE --------------------------*/
 
 }
 #tipos-serviços>.caixa-externa>.caixa-interna>img{
-    background-color: #676767bd;
+    background-color: #979797f3;
     align-items: center;
     
     width: 120px;
@@ -232,7 +232,7 @@ display: none;/* ATENÇÃO AQUI ESTA NONE --------------------------*/
 #tipos-serviços>.caixa-externa>.caixa-interna>h3{
     text-align: center;
     color: var(--cor2);
-    text-shadow: 2px 2px 9px rgba(255, 255, 255, 0.377);
+    text-shadow: 2px 2px 9px #36353575;
    
 }
 footer{
@@ -263,7 +263,7 @@ footer>ul>li>ion-icon{
 #vital-life{
     
     max-width: 1000px;
-    display: block;
+    display: none;
     
     margin: auto;
     margin-bottom: 20px;
@@ -347,7 +347,7 @@ footer>ul>li>ion-icon{
 }
 #unidades{
     background-color: white;
-    display: flex;
+    display: none;
 
 }
 #conteudo-principal-unidades{
@@ -487,4 +487,7 @@ footer>ul>li>ion-icon{
 .funcionamento-texto>ul>li>h4{
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.589);
  
+}
+.titulo-geral-serviços{
+    display: flex;
 }
