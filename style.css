@@ -252,7 +252,7 @@ footer>ul>li{
 }
 #central-atendimento{
     font-size: 1.6em;
-    margin-top: 10px;
+    margin: 10px;
     color: var(--cor2);
 }
 footer>ul>li>ion-icon{
@@ -269,6 +269,11 @@ footer>ul>li>ion-icon{
 .texto-vital{
     display: flex;
     flex-wrap: wrap;
+    background-color: #015958;
+    border-radius: 20px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.815);
+    margin: 20px;
+    padding: 10px;
    
 }
 .texto-vital>div{
@@ -285,7 +290,7 @@ footer>ul>li>ion-icon{
 .seta{
     font-size: 1.6em;
     margin-top: 8px;
-    color: #023535;
+    color: var(--cor8);
     
 }
 .titulo-life{
@@ -296,48 +301,45 @@ footer>ul>li>ion-icon{
 }
 .titulo-life>h1{
     font-size: 3em;
-    color: #023535;
+    color: var(--cor8);
     margin-bottom:15px ;
 }
 
 .titulo-life>h2{
-    color:#f16524 ;
+    color:#fd651f ;
     font-size: 2em;
     
     padding: 15px;
 }
 .paragrafo-vital{
-    background-color: #b4cccfad;
+    background-color: #f2ffffdc;
     max-width: 400px;
     margin: auto;
     font-size: 1.4em;
     margin-top: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 2px 3px 9px black;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 #gri-imagens{
-    background-color: #008F8C;
+    background-color: var(--cor7);
   display: flex;
   flex-wrap: wrap;
   max-width: 700px;
-  margin: auto;
+  margin: 0 auto;
   
   
   
 
 }
-#gri-imagens>div{
-   display: block;
-   flex: 1 1 150px;
-   margin: 15px;
-   
-   
-}
-.imagens>img{
-    max-width:200px ;
+#gri-imagens>img{
+   flex: 1 1 200px;
+   margin: 10px auto;
+   padding: 5px;
+   max-width:200px ;
    
 }
 
