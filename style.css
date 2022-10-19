@@ -62,23 +62,15 @@ header{
     box-shadow: 2px 2px 8px black;
 }
 #cabeçalho>ul>li>h4{
-    
     margin: 5px;
-    
 }
-
-
 nav{
     display: flex;
     justify-content: space-evenly ;
     min-height: 55px;
     max-height: 100px;
     margin-bottom: 20px;
-    
-    
-    
     background-color: var(--cor5);
-    
 }
 nav>a{
     text-decoration: none;
@@ -105,13 +97,10 @@ a:hover{
     background-image: linear-gradient(to right , var(--cor6),var(--cor2));
     box-shadow: 2px 2px 10px,rgba(0, 0, 0, 0.5);
     transition: 0.6s;
-   
     box-shadow: -1px -1px 8px black;
     text-shadow: -1px -1px 3px rgba(0, 0, 0, 0.384);
     min-height: 20px;
     max-height: 50px;
-
-    
 }
 #home{
 background-color: white;
@@ -153,10 +142,11 @@ display: block;/* ATENÇÃO AQUI ESTA NONE --------------------------*/
 .texto>h1{
     min-width: 300px;
     max-width: 400px;
-    text-align: left;
+    text-align: center;
     color: var(--cor6);
     font-size: 2.3em;
-    margin: 10px;
+    
+    
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.233);
     
 
@@ -172,8 +162,9 @@ display: block;/* ATENÇÃO AQUI ESTA NONE --------------------------*/
     text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.233);
     min-width: 280px;
     max-width: 380px;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.774);
 
 }
 #conteudo-principal-home>div>img{
@@ -241,8 +232,6 @@ footer{
     max-width: 900px;
     display: flex;
     margin: auto;
-    border-left: 10px solid white;
-    border-right: 10px solid white;
     justify-content: space-around;
     border-radius: 30px 30px 0px 0px;
     
@@ -327,14 +316,11 @@ footer>ul>li>ion-icon{
 
 }
 #gri-imagens{
-    background-color: var(--cor7);
+    
   display: flex;
   flex-wrap: wrap;
   max-width: 750px;
   margin: 0 auto;
-  
-  
-  
 
 }
 #gri-imagens>img{
@@ -488,6 +474,94 @@ footer>ul>li>ion-icon{
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.589);
  
 }
+#serviços{
+    display: none;
+    
+}
+.conteudo-principal-serviços{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: auto;
+    
+}
+.conteudo-principal-serviços>div{
+    display: flex;
+    flex: 1 1 300px;
+    width: 300px;
+    margin: auto;
+}
+.conteudo-principal-serviços>div>img{
+    max-width: 350px;
+    display: inline;
+    margin: auto;
+}
 .titulo-geral-serviços{
     display: flex;
+    max-width: 350px;
+    margin: auto;
+}
+.titulo-serviços>h1{
+    font-size: 2.8em;
+    margin-bottom: 30px;
+    color: var(--cor5); 
+}
+.titulo-serviços>h2{
+    font-size: 2.0em;
+    margin-bottom: 30px;
+    color:#fd651f ; 
+}
+.titulo-serviços>p{
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+.seta-serviço{
+    font-size: 1.6em;
+    margin-top: 8px;
+    color: var(--cor5);
+}
+.div-lista{
+    
+    max-width:800px ;
+    margin: auto;
+    padding: 20px;
+   
+}
+.div-lista>ul{
+    border: 1px solid #023535;
+    background-color: #83999925;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.541);
+    max-width:600px ;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    
+    
+    
+    
+}
+.div-lista>ul>li{
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+    border: 1px solid #0235356e;
+    
+}
+
+.destaque-serviço,.destaque-valores{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 2.2em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.562);
+    color: #036b69;
+    padding: 8px;
+}
+
+.div-lista>ul>li>h2{
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    color: #023535;
+    
 }
